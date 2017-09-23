@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LinearLayoutActivity"
+    >
+
+    <EditText
+        android:id="@+id/redText"
+        android:background="@color/redColor"
+        style="@style/CustomTextViewStyle"
+        android:text="Red" />
+
+    <EditText
+        android:id="@+id/orangeText"
+        style="@style/CustomTextViewStyle"
+        android:background="@color/orangeColor"
+        android:text="Orange" />
+
+    <EditText
+        android:id="@+id/yellowText"
+        style="@style/CustomTextViewStyle"
+        android:background="@color/yellowColor"
+        android:text="Yellow" />
+
+    <EditText
+        android:id="@+id/greenText"
+        style="@style/CustomTextViewStyle"
+        android:background="@color/greenColor"
+        android:text="Green" />
+
+    <EditText
+        android:id="@+id/blueText"
+        style="@style/CustomTextViewStyle"
+        android:background="@color/blueColor"
+        android:textColor="@color/whiteColor"
+        android:text="Blue" />
+
+    <EditText
+        android:id="@+id/indegoText"
+        style="@style/CustomTextViewStyle"
+        android:background="@color/indegoColor"
+        android:textColor="@color/whiteColor"
+        android:text="Indego" />
+
+    <EditText
+        android:id="@+id/violetText"
+        style="@style/CustomTextViewStyle"
+        android:background="@color/violetColor"
+        android:text="Violet" />
+
+</LinearLayout>
